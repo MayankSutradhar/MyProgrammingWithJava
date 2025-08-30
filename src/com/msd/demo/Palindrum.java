@@ -1,4 +1,4 @@
-package com.demo.program;
+package com.msd.demo;
 
 public class Palindrum {
 	public static void main(String[] args) {

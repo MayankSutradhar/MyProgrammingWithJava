@@ -14,7 +14,7 @@ class MyThread extends Thread {
 			}
 		}
 		
-		// m1();m2();m3();
+		 //m1();m2();m3();
 	}
 
 	public void m1() {

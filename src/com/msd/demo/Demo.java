@@ -16,14 +16,22 @@ public class Demo {
 		s.concat("_");
 		System.out.println(s);
 		String str = "Hello this is evagator";
+		
 		boolean var;
 		var = str.startsWith("hello");
 		System.out.println(var);
-		// System.out.println("Result="+getValue());
+		//System.out.println("Result="+getValue());
+		
 		int x = 10;
 		int y = 5;
 		int result = (x > y) ? x++ : y++;
 		System.out.println("Result--" + result + "," + x + "," + y);
+		
+		String text = " "; 
+		System.out.println(text.isEmpty());
+		System.out.println(text.isBlank());
+		
+		int x2 = 10; System.out.println(x2++ + ++x2);
 	}
 
 	private static int getValue() {
